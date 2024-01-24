@@ -5,16 +5,13 @@ import {
   Route,
 } from "react-router-dom";
 
-// pages
-
 import SandboxPage from "./pages/sandbox-page";
 
-const App = () => (
-  <Router>
-    <Routes>
-      <Route path="/" element={<SandboxPage />} />
-    </Routes>
-  </Router>
+export default (
+<div>oi</div>
+  // <Router>
+  //   <Routes>
+  //     <Route path="/" element={<SandboxPage />} />
+  //   </Routes>
+  // </Router>
 );
-
-export default App
